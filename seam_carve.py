@@ -123,7 +123,7 @@ if __name__ == "__main__":
     np.set_printoptions(threshold=np.nan)
     #handle cli arguments
     if len(sys.argv) != 2:
-        print("Usage: python p2_seam_carve.py <img>")
+        print("Usage: python seam_carve.py <img>")
     img_in = sys.argv[1]
     IMG_NAME = sys.argv[1]
     img_pre = cv2.imread(img_in)
