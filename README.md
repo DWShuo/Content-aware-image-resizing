@@ -3,13 +3,13 @@ Ordinarily when a image is resized each pixel is treated equally, meaning everth
 In 2007 a paper titled “Seam Carving for Content-Aware Image Resizing” was published, which suggested resizing along seams of low energy. A vertical seam is defined in this case as one pixel per row and each pixel being 8-connected (pixels in adjacent rows differ by at most one column).
 
 ## Original images
-![snow](../examples/snow.png)
-![lib](../examples/lib.png)
+![snow](.examples/snow.jpg)
+![lib](.examples/lib.jpg)
 
 ## Examples of seams
-![snow](../examples/snow_seam.png)
-![lib](../examples/lib_seam.png)
+![snow](./examples/snow_seam.png)
+![lib](./examples/lib_seam.png)
 
 ## Final side by side comparison
-![snow](../examples/snow-sbs.png)
-![lib](../examples/lib-sbs.png)
+![snow](./examples/snow-sbs.png)
+![lib](./examples/lib-sbs.png)
